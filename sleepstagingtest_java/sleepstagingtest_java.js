@@ -131,6 +131,7 @@ function keyPressed() {
       criterionSounds[currentImage].play();
       timeSpent=round((Date.now()-startTime)/1000,2);
       correct=criterionSplit[currentImage].split(",")[3];
+	  //@sam this runs once per trial and updates the results for each trial. UserStage is the stage the person said, correct is the correct stange, timeSpent is the number of seconds spent on the trial and totalClicks is the number of backwards or forwards command shtye gave.
       results=results+","+userStage+":"+correct+":"+timeSpent+":"+totalClicks;
       totalClicks=0;
       
