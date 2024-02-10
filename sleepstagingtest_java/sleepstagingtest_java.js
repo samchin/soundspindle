@@ -250,9 +250,11 @@ function draw() {
   
    if (correct.indexOf(userStage) > -1) {
      fill(0,200,0);
+     stroke(0,200,0);
    }
    else {
      fill(200,0,0);
+     stroke(200,0,0);
    }
    text("You said: Stage "+userStage.replace("5","REM").replace("0","wake")+"\nPress space to continue",0,550);
    
