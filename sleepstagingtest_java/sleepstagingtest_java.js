@@ -26,7 +26,7 @@ playSound=true; //should the sound play
 dropout=true; //should we keep looping through items until they're gotten correct (true) or go through each only once (false)
 pid=0;
 startTime=Date.now();
-
+block='0';
 function preload() {
   urlParams = new URLSearchParams(window.location.search);
   block = urlParams.get('block');
@@ -143,7 +143,7 @@ function keyPressed() {
   }
   change=true;
   if (epoch == 1) { //we are viewing the epoch
-    if (key == '0' || key == '1' || key == '2' || key == '3' || key == 'r' || key == 'R' || key == 'w' || key == 'W') {
+    if (key == '0' || key == '1' || key == '2' || key == '3' || key == 'r' || key == 'R' || key == 'w' || key == 'W' || key == '5') {
       if (key == 'r' || key == 'R') {
           userStage='5';
       }
@@ -153,6 +153,7 @@ function keyPressed() {
       else {
       userStage=key;
       }
+      userStage=userStage.replace("r","5").replace("R","5");
       practiceStage=2;
       if (playSound) {
       criterionSounds[currentImage].play();
@@ -246,6 +247,7 @@ function draw() {
    
    correct=criterionSplit[currentImage].split(",")[3];
    text("This epoch is stage "+(correct+"").replace("5","REM").replace("0","wake")+".",0,520);
+  
    if (correct.indexOf(userStage) > -1) {
      fill(0,200,0);
    }
