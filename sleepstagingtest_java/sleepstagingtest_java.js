@@ -256,8 +256,7 @@ function draw() {
    
   }
   else if (practiceStage == 3) {
-    alert(results);
-    //practiceStage=4;
+    window.location.replace("https://mit.co1.qualtrics.com/jfe/form/SV_0pwKV9gTyvvYRT0?data="+results+"&pid="+pid+"&sound="+sound+"&block="+block);
   }
     
   
