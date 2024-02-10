@@ -170,8 +170,9 @@ function keyPressed() {
   }
   }
   else if (practiceStage == 2) {
-    dropoutCorrect(userStage);
+    
     if (key == ' ') {
+      dropoutCorrect(userStage);
       if (criterionSounds.length > 0) {
         currentImage=Math.floor(Math.random() * criterionSounds.length);
         practiceStage = 1;
