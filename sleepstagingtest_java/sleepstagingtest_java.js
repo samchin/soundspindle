@@ -22,20 +22,29 @@ practiceStage=0;
 totalClicks=0;
 results="";
 
-
+playSound=true; //should the sound play
+dropout=true; //should we keep looping through items until they're gotten correct (true) or go through each only once (false)
+pid=0;
 startTime=Date.now();
 
 function preload() {
   urlParams = new URLSearchParams(window.location.search);
   block = urlParams.get('block');
+  pid = urlParams.get('pid');
+  sound=urlParams.get('sound');
+  if (sound.indexOf("0") > -1) {
+    playSound=false;
+  }
   //font=loadFont("/data/font.vlw");
   //load the correct stimuli. If it's 0 or not specified, load the criterion test
   if (block.indexOf('1' > -1)) {
     criterion=block1;
+    dropout=false;
     console.log("Loading block1");
   }
   if (block.indexOf('2' > -1)) {
     criterion=block2;
+    dropout=false;
     console.log("Loading block2");
   }
   criterionSplit=criterion.split("#");
@@ -99,7 +108,7 @@ function setup() {
 function dropoutCorrect(stage) {
   
   correct=criterionSplit[currentImage].split(",")[3];
-  if (correct.indexOf(stage) > -1 || true) { //if it was correct, remove this item from all the arrays
+  if (correct.indexOf(stage) > -1 || !dropout) { //if it was correct OR this is a non-dropout block, remove this item from all the arrays
     criterionSounds.splice(currentImage,1);
     criterionSounds_pre.splice(currentImage,1);
     criterionSounds_post.splice(currentImage,1);
@@ -142,7 +151,9 @@ function keyPressed() {
       userStage=key;
       }
       practiceStage=2;
+      if (playSound) {
       criterionSounds[currentImage].play();
+      }
       timeSpent=round((Date.now()-startTime)/1000,2);
       correct=criterionSplit[currentImage].split(",")[3];
 	  //@sam this runs once per trial and updates the results for each trial. UserStage is the stage the person said, correct is the correct stange, timeSpent is the number of seconds spent on the trial and totalClicks is the number of backwards or forwards command shtye gave.
@@ -207,7 +218,7 @@ function draw() {
   background(50);
   if (criterionImages[currentImage] != undefined && criterionSounds[currentImage] != undefined) {
   image(criterionImages[currentImage],600,240,1100,500,0,0,criterionImages[currentImage].width,1420);
-  if (change) {
+  if (change && playSound) {
    criterionSounds[currentImage].play();
     change=false;
   }
@@ -218,7 +229,7 @@ function draw() {
   background(0);
   if (criterionImages_post[currentImage] != undefined && criterionSounds_post[currentImage] != undefined) {
   image(criterionImages_post[currentImage],600,240,1100,500,0,0,criterionImages_post[currentImage].width,1420);
-  if (change) {
+  if (change && playSound) {
     criterionSounds_post[currentImage].play();
     change=false;
   }
