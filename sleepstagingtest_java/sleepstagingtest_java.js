@@ -32,7 +32,10 @@ function preload() {
   block = urlParams.get('block');
   pid = urlParams.get('pid');
   sound=urlParams.get('sound');
-  if (sound.indexOf("0") > -1) {
+  if (sound==block || block.indexOf("0") > -1) { //play sounds if we are in the sound block
+    playSound=true;
+  }
+  else {
     playSound=false;
   }
   //font=loadFont("/data/font.vlw");
