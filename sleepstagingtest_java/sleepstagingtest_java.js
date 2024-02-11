@@ -27,12 +27,14 @@ dropout=true; //should we keep looping through items until they're gotten correc
 pid=0;
 startTime=Date.now();
 block='0';
+soundBlock='1';
+urlParams="";
 function preload() {
   urlParams = new URLSearchParams(window.location.search);
   block = urlParams.get('block');
   pid = urlParams.get('pid');
-  sound=urlParams.get('sound');
-  if (sound==block || block.indexOf("0") > -1) { //play sounds if we are in the sound block
+  soundBlock=urlParams.get('sound');
+  if (soundBlock==block || block.indexOf("0") > -1) { //play sounds if we are in the sound block
     playSound=true;
   }
   else {
@@ -261,7 +263,8 @@ function draw() {
    
   }
   else if (practiceStage == 3) {
-    window.location.replace("https://mit.co1.qualtrics.com/jfe/form/SV_0pwKV9gTyvvYRT0?data="+results+"&pid="+pid+"&sound="+sound+"&block="+block);
+    window.location.replace("https://mit.co1.qualtrics.com/jfe/form/SV_0pwKV9gTyvvYRT0?data="+results+"&pid="+pid+"&sound="+soundBlock+"&block="+block);
+    frameRate(0.001);
   }
     
   
