@@ -23,7 +23,7 @@ totalClicks=0;
 results="";
 
 playSound=true; //should the sound play
-dropout=true; //should we keep looping through items until they're gotten correct (true) or go through each only once (false)
+dropout=false; //should we keep looping through items until they're gotten correct (true) or go through each only once (false) Set to false for testing, should change back to true for production
 pid=0;
 startTime=Date.now();
 block='0';
@@ -52,6 +52,7 @@ function preload() {
     dropout=false;
     console.log("Loading block2");
   }
+ 
   criterionSplit=criterion.split("#");
 
 criterionSplit.forEach((val) => {
