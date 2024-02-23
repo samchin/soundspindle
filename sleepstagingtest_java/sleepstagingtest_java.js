@@ -29,7 +29,9 @@ startTime=Date.now();
 block='0';
 soundBlock='1';
 urlParams="";
+let img;
 function preload() {
+  demo=loadImage("/data/demo.png");
   urlParams = new URLSearchParams(window.location.search);
   block = urlParams.get('block');
   pid = urlParams.get('pid');
@@ -127,6 +129,12 @@ function dropoutCorrect(stage) {
 }
     
 function keyPressed() {
+  if (practiceStage == -2) {
+    practiceStage++;
+  }
+  else if (practiceStage == -1) {
+    practiceStage=1;
+  }
   if (practiceStage == 1) {
   if (keyCode == RIGHT_ARROW) {
     epoch++;
@@ -193,18 +201,45 @@ function keyPressed() {
 
 function mouseClicked() {
   if (practiceStage == 0) {
+    if (block.indexOf('0') == -1) { //move from the intro to the task if we are in the regular block, but display an additional training screen if we are in the first block.
     practiceStage=1;
-    startTIme=Date.now();
+    startTime=Date.now();
+    }
+    else {
+      practiceStage = -2;
+    }
   }
   
 }
 function draw() {
   stroke(255);
   fill(255);
-  
+  if (practiceStage == -2) {
+      background(0);
+       image(demo,0,0,1100,500,0,0,criterionImages_pre[0].width,1420);
+       text("This is how sleep will be displayed. In this practice, you will also hear the EEG transformed into a sound. \nMake sure your volume is turned up.\n Press any key to continue",0,520);
+    }
+   else if (practiceStage == -1) {
+     background(0);
+       text("First we will have you practice scoring about 20 epochs of sleep. You will see each epoch until you get it correct. You should hear sounds associated with each epoch\n Press any key to continue.",0,520);
+    }
   if (practiceStage == 0) {
     background(0);
-    text("Welcome to the sleep staging experiment!\nClicki anywhere to continue",0,50);
+
+    if (block == 0) {
+    text("Welcome to the sleep staging experiment!\nClick anywhere to continue",0,50);
+    }
+    else {
+      instructions="Now we will have you stage some more sleep. This time you will see each epoch only once, so try to get it correct on the first try. \n #SOUND \nClick anywhere to continue";
+      if (sound) {
+        instructions=instructions.replace("#SOUND", "In this block, we will play also play sounds that represent the EEG signal (the same as during the practice)");
+      }
+      else {
+        instructions=instructions.replace("#SOUND", "In this block, you will NOT hear sounds that go with the EEG.");
+      }
+      text(instructions,0,50);
+      
+  }
   }
   
   else if (practiceStage == 1) {
