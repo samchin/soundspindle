@@ -31,7 +31,7 @@ soundBlock='1';
 urlParams="";
 let img;
 function preload() {
-  demo=loadImage("/data/demo.png");
+  demo=loadImage("./data/demo.png");
   urlParams = new URLSearchParams(window.location.search);
   block = urlParams.get('block');
   pid = urlParams.get('pid');
