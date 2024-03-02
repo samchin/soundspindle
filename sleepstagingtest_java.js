@@ -124,6 +124,13 @@ function dropoutCorrect(stage) {
 }
     
 function keyPressed() {
+	  if (practiceStage == -2) {
+    practiceStage++;
+  }
+  else if (practiceStage == -1) {
+    practiceStage=1;
+  }
+  
   if (practiceStage == 1) {
   if (keyCode == RIGHT_ARROW) {
     epoch++;
@@ -214,9 +221,14 @@ function sendDataToSheet(userStage, correct, timeSpent, totalClicks, pid, block,
   }
 
 function mouseClicked() {
-  if (practiceStage == 0) {
+ if (practiceStage == 0) {
+    if (block.indexOf('0') == -1) { //move from the intro to the task if we are in the regular block, but display an additional training screen if we are in the first block.
     practiceStage=1;
-    startTIme=Date.now();
+    startTime=Date.now();
+    }
+    else {
+      practiceStage = -2;
+    }
   }
   
 }
