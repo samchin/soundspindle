@@ -273,7 +273,7 @@ function draw() {
   if (criterionImages_pre[currentImage] != undefined && criterionSounds_pre[currentImage] != undefined) {
 
   image(criterionImages_pre[currentImage],600,240,1100,500,0,0,criterionImages_pre[currentImage].width,1420);
-  if (change) {
+  if (change  && playSound) {
     criterionSounds_pre[currentImage].play();
     change=false;
   }
