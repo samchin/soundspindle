@@ -27,7 +27,9 @@ dropout=true; //should we keep looping through items until they're gotten correc
 pid=0;
 startTime=Date.now();
 block='0';
+demo='';
 function preload() {
+  demo=loadImage("./data/demo.png");
   urlParams = new URLSearchParams(window.location.search);
   block = urlParams.get('block');
   pid = urlParams.get('pid');
