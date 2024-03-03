@@ -7,6 +7,7 @@ criterionSplit=[];
 
 criterionSounds=[];
 criterionSounds_pre=[];
+criterionSounds_pre=[];
 criterionSounds_post=[];
 criterionImages=[];
 criterionImages_pre=[];
@@ -255,8 +256,8 @@ function draw() {
     }
     else {
       instructions="Now we will have you stage some more sleep. This time you will see each epoch only once, so try to get it correct on the first try. \n #SOUND \nClick anywhere to continue";
-      if (sound) {
-        instructions=instructions.replace("#SOUND", "In this block, we will play also play sounds that represent the EEG signal (the same as during the practice)");
+      if (soundBlock) {
+        instructions=instructions.replace("#SOUND", "In this block, we will play also play sounds that represent the EEG signal in O1-A2 (the same as during the practice)");
       }
       else {
         instructions=instructions.replace("#SOUND", "In this block, you will NOT hear sounds that go with the EEG.");
