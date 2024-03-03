@@ -43,12 +43,12 @@ function preload() {
   }
   //font=loadFont("../data/font.vlw");
   //load the correct stimuli. If it's 0 or not specified, load the criterion test
-  if (block.indexOf('1' > -1)) {
+  if (block=='1') {
     criterion=block1;
     dropout=false;
     console.log("Loading block1");
   }
-  if (block.indexOf('2' > -1)) {
+  if (block=='2') {
     criterion=block2;
     dropout=false;
     console.log("Loading block2");
