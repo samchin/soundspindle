@@ -256,7 +256,7 @@ function draw() {
     }
     else {
       instructions="Now we will have you stage some more sleep. This time you will see each epoch only once, so try to get it correct on the first try. \n #SOUND \nClick anywhere to continue";
-      if (soundBlock) {
+      if (playSound) {
         instructions=instructions.replace("#SOUND", "In this block, we will play also play sounds that represent the EEG signal in O1-A2 (the same as during the practice)");
       }
       else {
