@@ -112,7 +112,7 @@ function setup() {
     }
     
 function dropoutCorrect(stage) {
-  
+  console.log("User stage:"+stage+", correct="+criterionSplit[currentImage].split(",")[3]+",dropout="+dropout);
   correct=criterionSplit[currentImage].split(",")[3];
   if (correct.indexOf(stage) > -1 || !dropout) { //if it was correct OR this is a non-dropout block, remove this item from all the arrays
     criterionSounds.splice(currentImage,1);
