@@ -15,6 +15,6 @@ The options for `sound` are:
 - `1` - sound appears first
 - `2` - sound appears second
 
-The images and sounds were generated from a [custom fork](https://github.com/samchin/visbrain) of [`visbrain`](https://github.com/EtienneCmb/visbrain). 
+The images and sounds were generated from a [custom fork](https://github.com/samchin/visbrain) of [`visbrain`](https://github.com/EtienneCmb/visbrain) and appear in the `/data` folder.
 
 
