@@ -238,31 +238,33 @@ function mouseClicked() {
 function draw() {
   stroke(255);
   fill(255);
+
+  let x_margin = 40; 
   
     if (practiceStage == -2) {
       background(0);
-       image(demo,0,0,1100,500,0,0,criterionImages_pre[0].width,1420);
-       text("This is how sleep will be displayed. In this practice, you will also hear the EEG transformed into a sound. \nMake sure your volume is turned up.\n Press any key to continue",0,520);
+       image(demo,x_margin,0,1100,500,0,0,criterionImages_pre[0].width,1420);
+       text("This is how sleep will be displayed. In this practice, you will also hear the EEG transformed into a sound. \nMake sure your volume is turned up. \nPress any key to continue.",x_margin, 520);
     }
    else if (practiceStage == -1) {
      background(0);
-       text("First we will have you practice scoring about 20 epochs of sleep. You will see each epoch until you get it correct. You should hear sounds associated with each epoch\n Press any key to continue.",0,520);
+       text("First we will have you practice scoring about 20 epochs of sleep. You will see each epoch until you get it correct. \nYou should hear sounds associated with each epoch \nPress any key to continue.",x_margin, 520);
     }
   if (practiceStage == 0) {
     background(0);
 
     if (block == 0) {
-    text("Welcome to the sleep staging experiment!\nClick anywhere to continue",0,50);
+    text("Welcome to the sleep staging experiment!\nClick anywhere to continue.",x_margin, 50);
     }
     else {
-      instructions="Now we will have you stage some more sleep. This time you will see each epoch only once, so try to get it correct on the first try. \n #SOUND \nClick anywhere to continue";
+      instructions="Now we will have you stage some more sleep. \nThis time you will see each epoch only once, so try to get it correct on the first try. \n#SOUND \nClick anywhere to continue.";
       if (playSound) {
         instructions=instructions.replace("#SOUND", "In this block, we will play also play sounds that represent the EEG signal in O1-A2 (the same as during the practice)");
       }
       else {
         instructions=instructions.replace("#SOUND", "In this block, you will NOT hear sounds that go with the EEG.");
       }
-      text(instructions,0,50);
+      text(instructions,x_margin, 50);
       
   }
   }
@@ -276,12 +278,12 @@ function draw() {
   if (criterionImages_pre[currentImage] != undefined && criterionSounds_pre[currentImage] != undefined) {
 
   image(criterionImages_pre[currentImage],600,240,1100,500,0,0,criterionImages_pre[currentImage].width,1420);
-  if (change  && playSound) {
+  if (change && playSound) {
     criterionSounds_pre[currentImage].play();
     change=false;
   }
   }
-  text("This is one epoch before the epoch to stage. \nUse the right arrow to go forward in time.",0,520);
+  text("This is one epoch before the epoch to stage. \nUse the right arrow to go forward in time.",x_margin, 520);
   }
   if (epoch == 1) { ///showing the stage 
   background(50);
@@ -292,7 +294,7 @@ function draw() {
     change=false;
   }
   }
-   text("This is the epoch to stage. \nUse arrow keys to move backwards or forwards in time. \nUse w, 1, 2, 3, and R keys to stage the epoch.",0,520);
+   text("This is the epoch to stage. \nUse arrow keys to move backwards or forwards in time. \nUse w, 1, 2, 3, and R keys to stage the epoch.",x_margin, 520);
   //  console.log(criterionImages_post[currentImage])
   }
   if (epoch == 2) { ///showing the 30 seconds before the stage 
@@ -304,7 +306,7 @@ function draw() {
     change=false;
   }
   }
-   text("This is one epoch after the epoch to stage.\n Use the left arrow to go back in time.",0,520);
+   text("This is one epoch after the epoch to stage.\nUse the left arrow to go back in time.",x_margin, 520);
   }
   }
   else if (practiceStage == 2) { //getting feedback on stage
@@ -312,7 +314,7 @@ function draw() {
   image(criterionImages[currentImage],600,240,1100,500,0,0,criterionImages[currentImage].width,1420);
    
    correct=criterionSplit[currentImage].split(",")[3];
-   text("This epoch is stage "+(correct+"").replace("5","REM").replace("0","wake")+".",0,520);
+   text("This epoch is stage "+(correct+"").replace("5","REM").replace("0","wake")+".",x_margin, 520);
   
    if (correct.indexOf(userStage) > -1) {
      fill(0,200,0);
@@ -322,7 +324,7 @@ function draw() {
      fill(200,0,0);
      stroke(200,0,0);
    }
-   text("You said: Stage "+userStage.replace("5","REM").replace("0","wake")+"\nPress space to continue",0,550);
+   text("You said: Stage "+userStage.replace("5","REM").replace("0","wake")+"\nPress space to continue.",x_margin, 550);
    
   }
   else if (practiceStage == 3) {
