@@ -29,6 +29,19 @@ pid=0;
 startTime=Date.now();
 block='0';
 demo='';
+rts=[];
+rtcrit=true; //does the rt distribution look reasonable?
+function median(numbers) {
+    const sorted = Array.from(numbers).sort((a, b) => a - b);
+    const middle = Math.floor(sorted.length / 2);
+
+    if (sorted.length % 2 === 0) {
+        return (sorted[middle - 1] + sorted[middle]) / 2;
+    }
+
+    return sorted[middle];
+}
+
 function preload() {
   demo=loadImage("./data/demo.png");
   urlParams = new URLSearchParams(window.location.search);
@@ -173,6 +186,7 @@ function keyPressed() {
       isCorrect=calculateCorrect(userStage, correct);
 	    //@sam this runs once per trial and updates the results for each trial. UserStage is the stage the person said, correct is the correct stange, timeSpent is the number of seconds spent on the trial and totalClicks is the number of backwards or forwards command shtye gave.
       results=results+","+userStage+":"+correct+":"+timeSpent+":"+totalClicks;
+	  rts.push(timeSpent); //log the rt for this trial
       sendDataToSheet(userStage, correct, timeSpent, totalClicks, pid, block, playSound, isCorrect);
       totalClicks=0;
       
@@ -257,7 +271,7 @@ function draw() {
     }
    else if (practiceStage == -1) {
      background(0);
-       text("First we will have you practice scoring about 20 epochs of sleep. You will see each epoch until you get it correct. \nYou should hear sounds associated with each epoch \nPress any key to continue.",x_margin, 520);
+       text("First we will have you practice scoring 20 epochs of sleep. \nEach epoch comes from a different subject.  You will see each epoch until you get it correct. \nYou should hear sounds associated with each epoch \nPress any key to continue.",x_margin, 520);
     }
   if (practiceStage == 0) {
     background(0);
@@ -266,7 +280,7 @@ function draw() {
     text("Welcome to the sleep staging experiment!\nClick anywhere to continue.",x_margin, 50);
     }
     else {
-      instructions="Now we will have you stage some more sleep. \nThis time you will see each epoch only once, so try to get it correct on the first try. \n#SOUND \nClick anywhere to continue.";
+      instructions="Now we will have you stage some more sleep. There are 30 epochs in this block, and each comes from a different subject. \nThis time you will see each epoch only once, so try to get it correct on the first try. \n#SOUND \nClick anywhere to continue.";
       if (playSound) {
         instructions=instructions.replace("#SOUND", "In this block, we will play also play sounds that represent the EEG signal in O1-A2 (the same as during the practice)");
       }
@@ -337,7 +351,11 @@ function draw() {
    
   }
   else if (practiceStage == 3) {
-    window.location.replace("https://mit.co1.qualtrics.com/jfe/form/SV_0pwKV9gTyvvYRT0?data="+results+"&pid="+pid+"&sound="+soundBlock+"&block="+block);
+	  //compute whether valid responses based on rt
+	 if (median(rts) < 2) {
+		 rtcrit=false;
+	 }
+    window.location.replace("https://mit.co1.qualtrics.com/jfe/form/SV_0pwKV9gTyvvYRT0?data="+results+"&pid="+pid+"&sound="+soundBlock+"&block="+block+"&rts="+median(rts)+"&rtcrit="+rtcrit);
     frameRate(0.001);
   }
     
