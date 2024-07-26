@@ -2,7 +2,7 @@
 
 # df_wide - WIDE -------------------------------------------------
 
-df_wide <- read.csv("qdf2.csv")
+df_wide <- read.csv("raw_data/qdf2.csv")
 
 df_wide %>%  mutate(across(
   c("pid", "experience", "condition", "num_staged", "gender", "block",
@@ -22,7 +22,7 @@ datasummary_skim(df_wide)
 
 # df_long - LONG -------------------------------------------------
 
-df_long <- read.csv("rdf2.csv")
+df_long <- read.csv("raw_data/rdf2.csv")
 df_long %>%  mutate(across(c("pid", "experience", "condition", "num_staged", "gender", "userStage", "correctStage"), as.factor))
 df_long %>%  mutate(across(c("timeSpent", "isCorrect"), as.numeric))
 
