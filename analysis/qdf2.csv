@@ -1,0 +1,121 @@
+,pid,Duration,Finished,TLX_mental,TLX_physical,TLX_pace,TLX_success,TLX_effort,TLX_annoyed,hear_sounds,sound_useful,future_interest,suggestions,email,soundOrder,block,rts,rtcrit,botdetect,ip,age,gender,experience,num_staged,test_stage,source,sound_ord,condition,kappa,correct
+0,6040680,6,True,,,,,,,,,,,,1,0,,,,102.91.53.76,21,Female,Beginner,1-10,,1,1.0,sound training,,
+1,6040680,37,True,52.0,62.0,36.0,52.0,63.0,38.0,,,,,,1,1,,,,102.91.53.76,21,Female,Beginner,1-10,,1,1.0,sound,0.09871244635193133,30.0
+2,6040680,121,True,63.0,40.0,46.0,46.0,62.0,47.0,Yes,"Yes, a lot",Yes,no,rachaeldaniels566@gmail.com,1,2,,,,102.91.53.76,21,Female,Beginner,1-10,,1,1.0,visual only,-0.1203319502074689,10.0
+3,3874617,13,True,,,,,,,,,,,,1,0,,,,155.94.217.99,29,Male,Intermediate,11-20,,3,1.0,sound training,,
+4,3874617,56,True,79.0,85.0,87.0,68.0,86.0,92.0,,,,,,1,1,,,,155.94.217.99,29,Male,Intermediate,11-20,,3,1.0,sound,0.11051212938005395,26.666666666666668
+5,3874617,172,True,77.0,95.0,92.0,94.0,91.0,95.0,Yes,"Yes, a lot",Yes,nA,lucasmmartin02@gmail.com,1,2,,,,155.94.217.99,29,Male,Intermediate,11-20,,3,1.0,visual only,0.4842406876790831,60.0
+6,1636704,9,True,,,,,,,,,,,,2,0,3.44,true,false,104.223.102.51,29,Male,Beginner,1-10,1.0,3,2.0,sound training,,
+7,1636704,45,True,46.0,25.0,29.0,30.0,13.0,7.0,,,,,,2,1,1.935,false,false,104.223.102.51,29,Male,Beginner,1-10,1.0,3,2.0,visual only,0.3525179856115107,50.0
+8,1636704,99,True,41.0,36.0,39.0,22.0,15.0,6.0,Yes,"Yes, a lot",Yes,,lauramecer13@gmail.com,2,2,2.085,true,false,104.223.102.51,29,Male,Beginner,1-10,1.0,3,2.0,sound,0.4864479315263909,60.0
+9,4636444,50,True,,,,,,,,,,,,2,0,3.72,true,false,107.150.30.140,21,Male,Beginner,11-20,1.0,1,2.0,sound training,,
+10,4636444,30,True,80.0,84.0,46.0,47.0,58.0,48.0,,,,,,2,1,3.055,true,false,107.150.30.140,21,Male,Beginner,11-20,1.0,1,2.0,visual only,0.3459302325581395,50.0
+11,4636444,208,True,75.0,60.0,34.0,43.0,47.0,43.0,Yes,"Yes, a lot",Yes,Sound should play longer,smithrowe825@gmail.com,2,2,2.055,true,false,107.150.30.140,21,Male,Beginner,11-20,1.0,1,2.0,sound,0.3004115226337448,43.333333333333336
+12,174516,38,True,,,,,,,,,,,,2,0,4.2,true,false,185.236.200.22,23,Male,Beginner,1-10,1.0,1,2.0,sound training,,
+13,174516,30,True,70.0,49.0,67.0,71.0,72.0,61.0,,,,,,2,1,3.765,true,false,185.236.200.22,23,Male,Beginner,1-10,1.0,1,2.0,visual only,0.32735426008968604,50.0
+14,174516,107,True,67.0,59.0,72.0,60.0,67.0,59.0,Yes,"Yes, a lot",Yes,none,janewash587@gmail.com,2,2,3.85,true,false,185.236.200.22,23,Male,Beginner,1-10,1.0,1,2.0,sound,0.23076923076923073,40.0
+15,4780610,4,True,,,,,,,,,,,,2,0,2.1,true,false,89.41.26.54,28,Male,Intermediate,1-10,1.0,1,2.0,sound training,,
+16,4780610,12,True,68.0,59.0,58.0,79.0,63.0,79.0,,,,,,2,1,2.725,true,false,89.41.26.54,28,Male,Intermediate,1-10,1.0,1,2.0,visual only,0.3784530386740331,50.0
+17,4780610,67,True,71.0,48.0,72.0,58.0,69.0,54.0,Yes,"Yes, a lot",Yes,make it fullscreen,patricksean891@gmail.com,2,2,2.85,true,false,89.41.26.54,28,Male,Intermediate,1-10,1.0,1,2.0,sound,0.3023255813953488,46.666666666666664
+18,4486704,4,True,,,,,,,,,,,,2,0,2.7350000000000003,true,false,185.236.200.26,24,Male,Intermediate,1-10,1.0,1,2.0,sound training,,
+19,4486704,15,True,60.0,49.0,77.0,60.0,79.0,62.0,,,,,,2,1,2.405,true,false,185.236.200.26,24,Male,Intermediate,1-10,1.0,1,2.0,visual only,0.30835734870317,46.666666666666664
+20,4486704,72,True,70.0,55.0,79.0,59.0,83.0,73.0,Yes,"Yes, a lot",Yes,the sound is good,2samuelkamau@gmail.com,2,2,2.535,true,false,185.236.200.26,24,Male,Intermediate,1-10,1.0,1,2.0,sound,0.3850658857979502,53.333333333333336
+21,1409623,7,True,,,,,,,,,,,,1,0,2.76,true,false,155.94.247.229,21,Female,Beginner,11-20,1.0,1,1.0,sound training,,
+22,1409623,14,True,58.0,63.0,52.0,53.0,52.0,52.0,,,,,,1,1,1.905,false,false,155.94.247.229,21,Female,Beginner,11-20,1.0,1,1.0,sound,0.4698085419734904,60.0
+23,1409623,135,True,75.0,76.0,76.0,74.0,49.0,54.0,Yes,"Yes, a lot",Yes,,guetanancy94@gmail.com,1,2,2.53,true,false,155.94.247.229,21,Female,Beginner,11-20,1.0,1,1.0,visual only,0.48571428571428565,60.0
+24,4514201,7,True,,,,,,,,,,,,1,0,2.225,true,false,68.235.33.141,23,Male,Intermediate,21-40,1.0,1,1.0,sound training,,
+25,4514201,22,True,37.0,73.0,30.0,78.0,69.0,15.0,,,,,,1,1,2.685,true,false,68.235.33.141,23,Male,Intermediate,21-40,1.0,1,1.0,sound,0.43641618497109824,56.666666666666664
+26,4514201,73,True,85.0,50.0,70.0,61.0,83.0,3.0,Yes,"Yes, a lot",Yes,none,perrycaldon39@gmail.com,1,2,2.63,true,false,68.235.33.141,23,Male,Intermediate,21-40,1.0,1,1.0,visual only,0.35158501440922185,50.0
+27,3515808,4,True,,,,,,,,,,,,2,0,3.19,true,false,68.235.33.155,24,Female,Intermediate,41-80,1.0,1,2.0,sound training,,
+28,3515808,28,True,89.0,53.0,26.0,79.0,81.0,43.0,,,,,,2,1,2.855,true,false,68.235.33.155,24,Female,Intermediate,41-80,1.0,1,2.0,visual only,0.4372294372294373,56.666666666666664
+29,3515808,53,True,73.0,79.0,78.0,79.0,80.0,82.0,Yes,"Yes, a lot",Yes,0,meshtrinn@gmail.com,2,2,2.305,true,false,68.235.33.155,24,Female,Intermediate,41-80,1.0,1,2.0,sound,0.43965517241379304,56.666666666666664
+30,6816798,4,True,,,,,,,,,,,,1,0,3.24,true,false,23.105.190.162,23,Male,Experienced,41-80,1.0,1,1.0,sound training,,
+31,6816798,15,True,61.0,61.0,62.0,62.0,63.0,64.0,,,,,,1,1,2.41,true,false,23.105.190.162,23,Male,Experienced,41-80,1.0,1,1.0,sound,0.42898975109809667,56.666666666666664
+32,6816798,75,True,83.0,28.0,72.0,75.0,41.0,10.0,Yes,"Yes, a little",Yes,no,kimpablo095@gmail.com,1,2,2.42,true,false,23.105.190.162,23,Male,Experienced,41-80,1.0,1,1.0,visual only,0.5689655172413792,66.66666666666666
+33,8593937,9,True,,,,,,,,,,,,2,0,2.6950000000000003,true,false,104.223.103.117,27,Male,Intermediate,11-20,1.0,1,2.0,sound training,,
+34,8593937,54,True,63.0,34.0,63.0,39.0,59.0,12.0,,,,,,2,1,5.3100000000000005,true,false,104.223.103.117,27,Male,Intermediate,11-20,1.0,1,2.0,visual only,-0.07438016528925617,13.333333333333334
+35,8593937,138,True,63.0,42.0,52.0,42.0,64.0,14.0,Yes,"Yes, a lot",Yes,its is  a great idea,matthewbaven6@gmail.com,2,2,1.67,false,false,104.223.103.117,27,Male,Intermediate,11-20,1.0,1,2.0,sound,0.011461318051575908,23.333333333333332
+36,5654753,7,True,,,,,,,,,,,,2,0,2.39,true,false,217.138.255.164,19,Male,Beginner,11-20,1.0,1,2.0,sound training,,
+37,5654753,12,True,77.0,86.0,86.0,78.0,73.0,48.0,,,,,,2,1,2.52,true,false,217.138.255.164,19,Male,Beginner,11-20,1.0,1,2.0,visual only,0.6137339055793991,70.0
+38,5654753,65,True,91.0,20.0,50.0,53.0,57.0,29.0,Yes,Unsure,Yes,No,parteyalex7@gmail.com,2,2,2.835,true,false,217.138.255.164,19,Male,Beginner,11-20,1.0,1,2.0,sound,0.4388489208633093,56.666666666666664
+39,7913734,7,True,,,,,,,,,,,,1,0,4.365,true,false,104.223.103.106,28,Male,Beginner,11-20,1.0,1,1.0,sound training,,
+40,7913734,19,True,49.0,76.0,54.0,82.0,52.0,15.0,,,,,,1,1,0.4549999999999999,false,false,104.223.103.106,28,Male,Beginner,11-20,1.0,1,1.0,sound,-0.04347826086956519,20.0
+41,7913734,91,True,61.0,69.0,40.0,59.0,59.0,10.0,Yes,"Yes, a lot",Yes,its have real application,aoron312@gmail.com,1,2,0.275,false,false,104.223.103.106,28,Male,Beginner,11-20,1.0,1,1.0,visual only,-0.06990014265335232,16.666666666666664
+42,5732609,5,True,,,,,,,,,,,,1,0,2.42,true,false,155.94.218.79,24,Female,Intermediate,21-40,1.0,1,1.0,sound training,,
+43,5732609,25,True,77.0,37.0,68.0,70.0,82.0,15.0,,,,,,1,1,2.59,true,false,155.94.218.79,24,Female,Intermediate,21-40,1.0,1,1.0,sound,0.43804034582132567,56.666666666666664
+44,5732609,78,True,86.0,45.0,71.0,78.0,62.0,20.0,Yes,No,Yes,Not really,janescitt04@gmail.com,1,2,2.165,true,false,155.94.218.79,24,Female,Intermediate,21-40,1.0,1,1.0,visual only,0.48051948051948057,60.0
+45,6306445,6,True,,,,,,,,,,,,2,0,2.85,true,false,104.223.103.106,28,Male,Beginner,1-10,1.0,1,2.0,sound training,,
+46,6306445,18,True,77.0,48.0,75.0,54.0,53.0,20.0,,,,,,2,1,0.4399999999999999,false,false,104.223.103.106,28,Male,Beginner,1-10,1.0,1,2.0,visual only,-0.15207373271889413,16.666666666666664
+47,6306445,132,True,78.0,49.0,45.0,83.0,32.0,72.0,Yes,"Yes, a lot",Yes,none,jacksonmoore237@gmail.com,2,2,0.8200000000000001,false,false,104.223.103.106,28,Male,Beginner,1-10,1.0,1,2.0,sound,0.12536443148688048,33.33333333333333
+48,3767259,6,True,,,,,,,,,,,,1,0,2.66,true,false,104.223.103.106,25,Male,Intermediate,1-10,1.0,1,1.0,sound training,,
+49,3767259,16,True,75.0,41.0,82.0,54.0,78.0,23.0,,,,,,1,1,0.355,false,false,104.223.103.106,25,Male,Intermediate,1-10,1.0,1,1.0,sound,0.17985611510791388,36.666666666666664
+50,3767259,148,True,68.0,45.0,76.0,62.0,50.0,26.0,Yes,"Yes, a lot",Yes,more tunning,tylorjohnson715@gmail.com,1,2,0.415,false,false,104.223.103.106,25,Male,Intermediate,1-10,1.0,1,1.0,visual only,0.01146131805157602,23.333333333333332
+51,9541629,3,True,,,,,,,,,,,,2,0,2.51,true,false,96.47.239.223,22,Female,Intermediate,41-80,1.0,1,2.0,sound training,,
+52,9541629,52,True,93.0,11.0,28.0,60.0,81.0,18.0,,,,,,2,1,2.1,true,false,96.47.239.223,22,Female,Intermediate,41-80,1.0,1,2.0,visual only,0.4835007173601148,60.0
+53,9541629,58,True,77.0,53.0,73.0,46.0,63.0,35.0,Yes,"Yes, a little",Yes,no,renneyoung11@gmail.com,2,2,2.255,true,false,96.47.239.223,22,Female,Intermediate,41-80,1.0,1,2.0,sound,0.3487698986975397,50.0
+54,5549762,3,True,,,,,,,,,,,,1,0,2.41,true,false,212.103.48.68,24,Male,Intermediate,More than 80,1.0,1,1.0,sound training,,
+55,5549762,202,True,78.0,7.0,47.0,68.0,51.0,21.0,,,,,,1,1,2.785,true,false,212.103.48.68,24,Male,Intermediate,More than 80,1.0,1,1.0,sound,0.5089285714285714,63.33333333333333
+56,5549762,60,True,86.0,47.0,51.0,56.0,67.0,50.0,Yes,Unsure,Yes,none,dusantadic758@gmail.com,1,2,2.16,true,false,212.103.48.68,24,Male,Intermediate,More than 80,1.0,1,1.0,visual only,0.1291727140783745,33.33333333333333
+57,5639684,6,True,,,,,,,,,,,,2,0,18.545,true,false,118.140.125.80,26,Female,Intermediate,21-40,1.0,5,2.0,sound training,,
+58,5639684,97,True,70.0,60.0,31.0,61.0,78.0,30.0,,,,,,2,1,12.865,true,false,118.140.125.80,26,Female,Intermediate,21-40,1.0,5,2.0,visual only,0.6465390279823269,73.33333333333333
+59,5639684,199,True,70.0,52.0,30.0,31.0,80.0,55.0,Yes,No,No,No,,2,2,15.58,true,false,118.140.125.80,26,Female,Intermediate,21-40,1.0,5,2.0,sound,0.4475920679886686,56.666666666666664
+60,3592518,3,True,,,,,,,,,,,,1,0,3.43,true,false,197.232.61.201,25,Male,Beginner,1-10,1.0,1,1.0,sound training,,
+61,3592518,13,True,72.0,86.0,56.0,70.0,50.0,74.0,,,,,,1,1,0.42,false,false,197.232.61.201,25,Male,Beginner,1-10,1.0,1,1.0,sound,-0.004566210045662267,26.666666666666668
+62,3592518,193,True,31.0,74.0,89.0,54.0,73.0,10.0,Yes,"Yes, a lot",Yes,,n6276645@gmail.com,1,2,0.525,false,false,197.232.61.201,25,Male,Beginner,1-10,1.0,1,1.0,visual only,-0.03746397694524495,20.0
+63,5652642,4,True,,,,,,,,,,,,2,0,3.47,true,false,23.105.190.168,27,Female,Beginner,1-10,1.0,1,2.0,sound training,,
+64,5652642,16,True,85.0,49.0,82.0,63.0,80.0,11.0,,,,,,2,1,0.54,false,false,23.105.190.168,27,Female,Beginner,1-10,1.0,1,2.0,visual only,-0.020710059171597628,23.333333333333332
+65,5652642,219,True,90.0,31.0,68.0,40.0,62.0,13.0,Yes,"Yes, a lot",Yes,the waves should be more visible,e43594854@gmail.com,2,2,0.615,false,false,23.105.190.168,27,Female,Beginner,1-10,1.0,1,2.0,sound,0.12408759124087598,33.33333333333333
+66,7433581,5,True,,,,,,,,,,,,2,0,3.5,true,false,23.105.190.162,29,Female,Beginner,11-20,1.0,1,2.0,sound training,,
+67,7433581,21,True,72.0,93.0,42.0,31.0,69.0,9.0,,,,,,2,1,0.64,false,false,23.105.190.162,29,Female,Beginner,11-20,1.0,1,2.0,visual only,0.010494752623688153,26.666666666666668
+68,7433581,75,True,67.0,41.0,6.0,37.0,55.0,8.0,Yes,"Yes, a lot",Yes,,annluis627@gmail.com,2,2,0.79,false,false,23.105.190.162,29,Female,Beginner,11-20,1.0,1,2.0,sound,0.0393013100436681,26.666666666666668
+69,3051554,8,True,,,,,,,,,,,,1,0,2.33,true,false,107.150.30.140,24,Female,Intermediate,21-40,1.0,1,1.0,sound training,,
+70,3051554,25,True,90.0,31.0,59.0,70.0,87.0,22.0,,,,,,1,1,1.99,false,false,107.150.30.140,24,Female,Intermediate,21-40,1.0,1,1.0,sound,0.6075581395348837,70.0
+71,3051554,101,True,85.0,31.0,62.0,77.0,79.0,26.0,Yes,"Yes, a little",Yes,Not this time,mungori2010@gmail.com,1,2,1.97,false,false,107.150.30.140,24,Female,Intermediate,21-40,1.0,1,1.0,visual only,0.5244956772334294,63.33333333333333
+72,8100829,9,True,,,,,,,,,,,,2,0,2.21,true,false,68.235.33.131,23,Female,Intermediate,21-40,1.0,1,2.0,sound training,,
+73,8100829,50,True,90.0,31.0,80.0,71.0,79.0,40.0,,,,,,2,1,2.335,true,false,68.235.33.131,23,Female,Intermediate,21-40,1.0,1,2.0,visual only,0.41666666666666663,53.333333333333336
+74,8100829,77,True,88.0,27.0,39.0,77.0,27.0,59.0,Yes,"Yes, a lot",Yes,the sounds can be played a little bit longer,imanijoy077@gmail.com,2,2,2.2350000000000003,true,false,68.235.33.131,23,Female,Intermediate,21-40,1.0,1,2.0,sound,0.5258620689655172,63.33333333333333
+75,7559498,4,True,,,,,,,,,,,,1,0,2.79,true,false,86.106.87.109,19,Male,Beginner,1-10,1.0,1,1.0,sound training,,
+76,7559498,31,True,100.0,16.0,36.0,64.0,54.0,32.0,,,,,,1,1,2.085,true,false,86.106.87.109,19,Male,Beginner,1-10,1.0,1,1.0,sound,0.6475770925110133,73.33333333333333
+77,7559498,97,True,99.0,28.0,49.0,73.0,32.0,27.0,Yes,Unsure,Yes,its all good,smartpeter205@gmail.com,1,2,1.9,false,false,86.106.87.109,19,Male,Beginner,1-10,1.0,1,1.0,visual only,0.4950911640953717,60.0
+78,1244051,5,True,,,,,,,,,,,,1,0,2.47,true,false,23.105.186.155,20,Female,Intermediate,41-80,1.0,1,1.0,sound training,,
+79,1244051,51,True,66.0,44.0,55.0,67.0,83.0,30.0,,,,,,1,1,2.58,true,false,23.105.186.155,20,Female,Intermediate,41-80,1.0,1,1.0,sound,0.5224312590448625,63.33333333333333
+80,1244051,85,True,79.0,10.0,64.0,75.0,75.0,39.0,Yes,"Yes, a lot",Yes,no,bettysinclar@gmail.com,1,2,2.85,true,false,23.105.186.155,20,Female,Intermediate,41-80,1.0,1,1.0,visual only,0.48201438848920863,60.0
+81,8672700,3,True,,,,,,,,,,,,2,0,3.28,true,false,197.232.61.201,25,Female,Beginner,1-10,1.0,1,2.0,sound training,,
+82,8672700,14,True,83.0,52.0,81.0,42.0,81.0,15.0,,,,,,2,1,0.7949999999999999,false,false,197.232.61.201,25,Female,Beginner,1-10,1.0,1,2.0,visual only,-0.03597122302158273,20.0
+83,8672700,64,True,85.0,23.0,57.0,75.0,57.0,8.0,Yes,"Yes, a lot",Yes,none,kimaniferister804@gmail.com,2,2,0.63,false,false,197.232.61.201,25,Female,Beginner,1-10,1.0,1,2.0,sound,-0.004366812227074357,23.333333333333332
+84,6657528,6,True,,,,,,,,,,,,2,0,2.48,true,false,154.47.26.239,20,Male,Intermediate,21-40,1.0,1,2.0,sound training,,
+85,6657528,28,True,77.0,12.0,27.0,85.0,30.0,18.0,,,,,,2,1,1.795,false,false,154.47.26.239,20,Male,Intermediate,21-40,1.0,1,2.0,visual only,0.48051948051948057,60.0
+86,6657528,98,True,75.0,17.0,43.0,63.0,51.0,22.0,Yes,"Yes, a lot",Yes,N.a,luisdouglas235@gmail.com,2,2,1.99,false,false,154.47.26.239,20,Male,Intermediate,21-40,1.0,1,2.0,sound,0.44680851063829785,56.666666666666664
+87,2438325,7,True,,,,,,,,,,,,1,0,3.4,true,false,23.105.190.169,27,Male,Beginner,1-10,1.0,1,1.0,sound training,,
+88,2438325,21,True,51.0,60.0,28.0,71.0,34.0,4.0,,,,,,1,1,1.225,false,false,23.105.190.169,27,Male,Beginner,1-10,1.0,1,1.0,sound,-0.019202363367799125,23.333333333333332
+89,2438325,324,True,61.0,48.0,83.0,42.0,70.0,8.0,Yes,"Yes, a lot",Yes,nop,gj627931@gmail.com,1,2,1.215,false,false,23.105.190.169,27,Male,Beginner,1-10,1.0,1,1.0,visual only,-0.005830903790087438,23.333333333333332
+90,7440384,5,True,,,,,,,,,,,,1,0,2.13,true,false,104.223.98.178,22,Male,Intermediate,41-80,1.0,1,1.0,sound training,,
+91,7440384,23,True,83.0,25.0,39.0,91.0,76.0,11.0,,,,,,1,1,2.035,true,false,104.223.98.178,22,Male,Intermediate,41-80,1.0,1,1.0,sound,0.6109510086455332,70.0
+92,7440384,82,True,80.0,67.0,77.0,76.0,28.0,60.0,Yes,"Yes, a lot",Yes,no you dnt need to change anything,Wynemartinez727@gmail.com,1,2,1.765,false,false,104.223.98.178,22,Male,Intermediate,41-80,1.0,1,1.0,visual only,0.405099150141643,53.333333333333336
+93,6631202,4,True,,,,,,,,,,,,1,0,2.55,true,false,107.150.23.253,20,Female,Beginner,11-20,1.0,1,1.0,sound training,,
+94,6631202,16,True,82.0,50.0,73.0,49.0,51.0,28.0,,,,,,1,1,1.735,false,false,107.150.23.253,20,Female,Beginner,11-20,1.0,1,1.0,sound,0.48275862068965525,60.0
+95,6631202,50,True,83.0,27.0,12.0,82.0,87.0,25.0,Yes,Unsure,Yes,No,catem1320@gmail.com,1,2,1.725,false,false,107.150.23.253,20,Female,Beginner,11-20,1.0,1,1.0,visual only,0.534555712270804,63.33333333333333
+96,1066507,8,True,,,,,,,,,,,,2,0,2.13,true,false,212.103.48.74,26,Female,Experienced,More than 80,1.0,1,2.0,sound training,,
+97,1066507,14,True,78.0,66.0,68.0,54.0,44.0,59.0,,,,,,2,1,1.41,false,false,212.103.48.74,26,Female,Experienced,More than 80,1.0,1,2.0,visual only,0.40340909090909094,53.333333333333336
+98,1066507,132,True,92.0,70.0,70.0,86.0,47.0,9.0,Yes,No,Yes,the sounds are all good,Jemmaedith550@gmail.com,2,2,1.73,false,false,212.103.48.74,26,Female,Experienced,More than 80,1.0,1,2.0,sound,0.44680851063829785,56.666666666666664
+99,2454081,3,True,,,,,,,,,,,,1,0,2.14,true,false,96.47.239.235,19,Male,Beginner,21-40,1.0,1,1.0,sound training,,
+100,2454081,26,True,100.0,80.0,24.0,54.0,92.0,79.0,,,,,,1,1,1.4049999999999998,false,false,96.47.239.235,19,Male,Beginner,21-40,1.0,1,1.0,sound,0.44126074498567336,56.666666666666664
+101,2454081,101,True,82.0,77.0,71.0,83.0,66.0,55.0,Yes,"Yes, a lot",Yes,No. The sounds are all clear,godwink655@gmail.com,1,2,1.94,false,false,96.47.239.235,19,Male,Beginner,21-40,1.0,1,1.0,visual only,0.5732574679943101,66.66666666666666
+102,2952405,3,True,,,,,,,,,,,,1,0,2.02,true,false,89.41.26.59,19,Nonbinary,Intermediate,21-40,1.0,1,1.0,sound training,,
+103,2952405,19,True,74.0,24.0,18.0,55.0,92.0,20.0,,,,,,1,1,1.395,false,false,89.41.26.59,19,Nonbinary,Intermediate,21-40,1.0,1,1.0,sound,0.510385756676558,63.33333333333333
+104,2952405,79,True,86.0,65.0,35.0,70.0,60.0,60.0,Yes,"Yes, a lot",Yes,I dnt have any idea as of this momment,romanvincent537@gmail.com,1,2,1.665,false,false,89.41.26.59,19,Nonbinary,Intermediate,21-40,1.0,1,1.0,visual only,0.4864479315263909,60.0
+105,6692319,4,True,,,,,,,,,,,,2,0,2.14,true,false,68.235.38.168,25,Male,Experienced,More than 80,1.0,1,2.0,sound training,,
+106,6692319,19,True,100.0,51.0,11.0,50.0,82.0,86.0,,,,,,2,1,1.4449999999999998,false,false,68.235.38.168,25,Male,Experienced,More than 80,1.0,1,2.0,visual only,0.4610778443113772,60.0
+107,6692319,48,True,71.0,71.0,70.0,70.0,70.0,72.0,Yes,No,Yes,The sounds should play longer,goddonmikel@gmail.com,2,2,1.495,false,false,68.235.38.168,25,Male,Experienced,More than 80,1.0,1,2.0,sound,0.6470588235294117,73.33333333333333
+108,1675836,3,True,,,,,,,,,,,,1,0,2.14,true,false,86.106.87.104,27,Male,Beginner,1-10,1.0,1,1.0,sound training,,
+109,1675836,18,True,60.0,14.0,63.0,90.0,40.0,0.0,,,,,,1,1,1.295,false,false,86.106.87.104,27,Male,Beginner,1-10,1.0,1,1.0,sound,0.5468277945619335,66.66666666666666
+110,1675836,62,True,60.0,24.0,47.0,93.0,20.0,0.0,Yes,"Yes, a lot",Yes,N/a,charlesjames300h@gmail.com,1,2,1.51,false,false,86.106.87.104,27,Male,Beginner,1-10,1.0,1,1.0,visual only,0.48201438848920863,60.0
+111,1699914,20,True,,,,,,,,,,,,1,0,2.02,true,false,154.47.26.232,26,Male,Intermediate,21-40,1.0,1,1.0,sound training,,
+112,1699914,23,True,77.0,69.0,35.0,66.0,72.0,11.0,,,,,,1,1,1.56,false,false,154.47.26.232,26,Male,Intermediate,21-40,1.0,1,1.0,sound,0.5958083832335329,70.0
+113,1699914,59,True,84.0,52.0,24.0,72.0,74.0,19.0,Yes,"Yes, a little",Yes,No,gerradsteve451@gmail.com,1,2,1.5,false,false,154.47.26.232,26,Male,Intermediate,21-40,1.0,1,1.0,visual only,0.4050991501416431,53.333333333333336
+114,9832393,4,True,,,,,,,,,,,,2,0,2.0,true,false,185.236.200.23,23,Female,Intermediate,21-40,1.0,1,2.0,sound training,,
+115,9832393,20,True,89.0,34.0,86.0,93.0,82.0,16.0,,,,,,2,1,1.45,false,false,185.236.200.23,23,Female,Intermediate,21-40,1.0,1,2.0,visual only,0.6148359486447932,70.0
+116,9832393,58,True,99.0,33.0,28.0,48.0,92.0,57.0,Yes,No,Yes,No,woodslaura052@gmail.com,2,2,1.27,false,false,185.236.200.23,23,Female,Intermediate,21-40,1.0,1,2.0,sound,0.25547445255474466,43.333333333333336
+117,5318815,3,True,,,,,,,,,,,,1,0,2.035,true,false,104.129.18.202,20,Male,Beginner,1-10,1.0,1,1.0,sound training,,
+118,5318815,22,True,72.0,55.0,32.0,88.0,66.0,45.0,,,,,,1,1,1.395,false,false,104.129.18.202,20,Male,Beginner,1-10,1.0,1,1.0,sound,0.5244956772334294,63.33333333333333
+119,5318815,57,True,52.0,60.0,67.0,51.0,82.0,55.0,Yes,No,Yes,I could not hear the sounds well,fabiosilver5011@gmail.com,1,2,1.645,false,false,104.129.18.202,20,Male,Beginner,1-10,1.0,1,1.0,visual only,0.34114202049780373,50.0
