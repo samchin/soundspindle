@@ -1,7 +1,6 @@
 source("packages.R")
 source("data_cleaning.R")
 
-
 my_theme <- theme_minimal() + theme(plot.title = element_text(size=20,hjust = 0.5),
                   axis.title.x = element_text(size = 20),
                   axis.title.y = element_text(size = 20),
@@ -13,19 +12,20 @@ my_theme <- theme_minimal() + theme(plot.title = element_text(size=20,hjust = 0.
                   axis.text = element_text(size = 16, color = "grey30"))
 
 #FIG:kappa_exp
+colours <- c("#00BFC4", "#f8766d")
 ggplot(df_wide, aes(x = as.factor(num_staged), y =kappa, fill = as.factor(condition))) +
   geom_bar(stat = "summary", fun = "mean", position = "dodge") +
   labs(title = "Kappa by Experience Level",
        y = "Kappa") +
   scale_x_discrete("Number of Polysomnograms Scored", labels=c("More than 80" =  "80+")) +
-  scale_fill_discrete("", labels = c("sound" = "No Sound", "visual only" = "Sound")) +
+  # scale_fill_discrete("", labels = c("sound" = "Sound", "visual only" = "No Sound")) +
+  scale_fill_manual("", values = colours, labels = c("visual only" = "No Sound", "sound" = "Sound"))+
   geom_errorbar(stat="summary", width=.2, position=position_dodge(.9)) +
   geom_signif(
     y_position = c(0.4), xmin = c(0.7), xmax = c(1.3), 
                    annotation = c("*"), tip_length = 0.03, map_signif_level = TRUE, textsize= 11) +
   my_theme
 ggsave("Images/kappa_exp.png", width = 6.10, height = 6.48, units = "in")
-
 
 # KAPPA DIFF - REGRESSION -------------------------------------------------
 df_diff <- df_wide %>%
@@ -119,7 +119,9 @@ tlx_df$TLX <- factor(tlx_df$TLX, levels = c("TLX_mental", "TLX_physical", "TLX_p
 p <- ggplot(tlx_df, aes(y= rating, x=TLX, fill = condition))
 
 p + geom_boxplot() + labs(title = "TLX Ratings By Condition", y = "Rating") +
-  scale_fill_discrete("", labels = c("visual only" = "No Sound", "sound" = "Sound")) +
+  # scale_fill_discrete("", labels = c("visual only" = "No Sound", "sound" = "Sound")) +
+  scale_fill_manual("", values = colours, labels = c("visual only" = "No Sound", "sound" = "Sound"))+
+  
   scale_x_discrete("TLX Axis", 
                    labels=c("TLX_effort" = "Effort", "TLX_mental" = "Mental \nDemand", 
                             "TLX_annoyed" = "Frustration ", "TLX_pace" = "Temporal \n Demand",

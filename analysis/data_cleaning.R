@@ -4,12 +4,17 @@
 
 df_wide <- read.csv("raw_data/qdf2.csv")
 
-df_wide %>%  mutate(across(
+df_wide %>%  
+  mutate(condition = factor(condition, levels=c("visual only", "sound"))) %>%
+  mutate(across(
   c("pid", "experience", "condition", "num_staged", "gender", "block",
     "hear_sounds", "sound_useful", "soundOrder"), as.factor))
+
+
 df_wide %>%  mutate(across(c("kappa", "correct", "Duration", "TLX_mental", 
                              "TLX_physical", "TLX_pace", "TLX_success",
                              "TLX_effort", "TLX_annoyed"), as.numeric))
+
 
 df_wide <- df_wide %>% filter(condition != "sound training")
 
